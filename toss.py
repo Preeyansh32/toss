@@ -15,6 +15,7 @@ def restart_and_exit():
     print("do you want to restart ? \n")
     restart = input("y/n \n")
     if restart == "y":
+        # code by Dev Varun
         start()
     if restart == "n":
         print("okay, exiting.....")
